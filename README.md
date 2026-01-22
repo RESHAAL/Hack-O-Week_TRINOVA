@@ -1,7 +1,3 @@
-Here is a professional `README.md` file tailored for your hackathon project. It summarizes the objective, tech stack, and logic based on the files you provided.
-
----
-
 # Institute FAQ Chatbot 🤖
 
 A lightweight, rule-based chatbot designed to provide instant responses to frequently asked questions (FAQs) for an educational institute. This project was developed as part of a college hackathon to demonstrate basic string manipulation and pattern-matching logic.
