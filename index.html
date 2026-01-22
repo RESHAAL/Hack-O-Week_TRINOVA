@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Institute FAQ Chatbot</title>
-
-    <!-- CSS FILE -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,25 +12,24 @@
         <!-- HEADER -->
         <div class="header">
             <h2>Institute FAQ Chatbot 🤖</h2>
-            <p>Official Student Help Desk</p>
+            <p>You can ask any institute-related questions here</p>
         </div>
 
-        <!-- CHAT OUTPUT AREA -->
+        <!-- CHAT AREA -->
         <div id="chat-box"></div>
 
-        <!-- USER INPUT -->
-        <input 
-            type="text" 
-            id="userInput" 
-            placeholder="Ask your question">
-
-        <!-- SEND BUTTON -->
-        <button onclick="sendMessage()">Send</button>
+        <!-- INPUT AREA -->
+        <div class="input-area">
+            <input 
+                type="text" 
+                id="userInput" 
+                placeholder="Type your question..."
+                onkeydown="handleEnter(event)">
+            <button onclick="sendMessage()">Send</button>
+        </div>
 
     </div>
 
-    <!-- JAVASCRIPT FILE -->
     <script src="script.js"></script>
-
 </body>
 </html>
