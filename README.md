@@ -24,6 +24,7 @@ The **Institute FAQ Chatbot** acts as an official student help desk. It identifi
 * `index.html`: Contains the structural layout, including the chat display area and input fields.
 * `style.css`: Manages the visual presentation, fonts, and "glass" container effects.
 * `script.js`: Houses the logic for processing user input and matching keywords to responses.
+* * `bg.jpg`: Background image for the site.
 
 ## ⚙️ How It Works (Logic Flow)
 
