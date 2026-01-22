@@ -1,39 +1,38 @@
-Institute FAQ Chatbot 🤖
+Here is a professional `README.md` file tailored for your hackathon project. It summarizes the objective, tech stack, and logic based on the files you provided.
+
+---
+
+# Institute FAQ Chatbot 🤖
+
 A lightweight, rule-based chatbot designed to provide instant responses to frequently asked questions (FAQs) for an educational institute. This project was developed as part of a college hackathon to demonstrate basic string manipulation and pattern-matching logic.
 
-📌 Project Overview
-The Institute FAQ Chatbot acts as an official student help desk. It identifies keywords in user queries to provide specific information regarding college timings, fees, admissions, and more.
+## 📌 Project Overview
 
-Key Features
-15+ Predefined FAQ Rules: Handles queries ranging from fees and scholarships to canteen and transport.
+The **Institute FAQ Chatbot** acts as an official student help desk. It identifies keywords in user queries to provide specific information regarding college timings, fees, admissions, and more.
 
-Pattern Matching: Uses keyword detection to understand user intent.
+### Key Features
 
-Glassmorphism UI: A modern, semi-transparent user interface with a background blur effect.
+* **15+ Predefined FAQ Rules:** Handles queries ranging from fees and scholarships to canteen and transport.
+* **Pattern Matching:** Uses keyword detection to understand user intent.
+* **Glassmorphism UI:** A modern, semi-transparent user interface with a background blur effect.
+* **Responsive Chat Window:** Automatically scrolls to the latest message for a seamless user experience.
 
-Responsive Chat Window: Automatically scrolls to the latest message for a seamless user experience.
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-Frontend: HTML5
+* **Frontend:** HTML5
+* **Styling:** CSS3 (Flexbox, Backdrop-filters)
+* **Logic:** Vanilla JavaScript (ES6)
 
-Styling: CSS3 (Flexbox, Backdrop-filters)
+## 📂 File Structure
 
-Logic: Vanilla JavaScript (ES6)
+* `index.html`: Contains the structural layout, including the chat display area and input fields.
+* `style.css`: Manages the visual presentation, fonts, and "glass" container effects.
+* `script.js`: Houses the logic for processing user input and matching keywords to responses.
 
-📂 File Structure
-index.html: Contains the structural layout, including the chat display area and input fields.
+## ⚙️ How It Works (Logic Flow)
 
-style.css: Manages the visual presentation, fonts, and "glass" container effects.
-
-script.js: Houses the logic for processing user input and matching keywords to responses.
-
-⚙️ How It Works (Logic Flow)
-Input: The user enters a question in the text field.
-
-Normalization: The system converts the input string to lowercase to ensure the bot is not case-sensitive.
-
-Pattern Matching: The chatbotReply() function uses a series of if...else if statements and the .includes() method to scan for keywords.
-
-Fallback: If no keywords are matched, a default message is returned, guiding the user to stay on topic.
-
-Output: The result is dynamically appended to the #chat-box div.
+1. **Input:** The user enters a question in the text field.
+2. **Normalization:** The system converts the input string to lowercase to ensure the bot is not case-sensitive.
+3. **Pattern Matching:** The `chatbotReply()` function uses a series of `if...else if` statements and the `.includes()` method to scan for keywords.
+4. **Fallback:** If no keywords are matched, a default message is returned, guiding the user to stay on topic.
+5. **Output:** The result is dynamically appended to the `#chat-box` div.
