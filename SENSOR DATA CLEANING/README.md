@@ -62,6 +62,3 @@ cleaned_beijing_sensors.csv
 * Outliers reduced using IQR-based capping
 * Dataset is now ready for analysis or machine learning
 
-
-If you want, I can tweak it specifically for **resume projects vs GitHub portfolio vs Kaggle submission**—they each prefer slightly different styles.
-
